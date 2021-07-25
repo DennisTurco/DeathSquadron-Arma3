@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title> Death Squadron </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="shortcut icon" href="LOGO12.png">
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div> 
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+<div class="sticky">
+<table cellspacing="0" style="margin: 25px;">
+	<tr><td rowspan="2" id="cellalogo"></td> <td id="cellatitolo"><a href="index.html"><h1 id="titolo">Death Squadron</h1></a></td></tr>	<tr><td id="sottotitolo" colspan="2" height="35" valign="top">Migliore clan italiano di Arma 3!</td></tr>
+    <img src="immagini/triangolo.png" id="triangolo"></img>
+    <a href="index.html"><img src="immagini/LOGO12.png" id="logo"></img></a>
+</table>
+
+<div id="drop-menu">
+    <ul id="menu">
+        <li><a href="index.html" title="Home"><img src="immagini/6952422px.png" height="15"></img></a></li>
+        <li><a href="organico.html">Organico</a></li>
+        <li><a>Onorificenze</a>
+            <ul>  
+                <li><a href="gradi.html">Gradi</a></li>
+                <li><a href="medaglie.html">Medaglie</a></li>
+            </ul>      
+        <li><a href="eventi.html" title="eventi">Eventi</a>
+        <li><a>Galleria</a>
+            <ul>
+                <li><a href="foto.html">Foto</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+</div>
+</div>
+
+
+<h2 align="center" style="color: white; margin-top: 120px;">Generale</h2>
+<center><table style="border-spacing: 0px; background-color: darkred; border-radius: 50px;">
+    <tr><td width="150" colspan="3" style="border-radius: 50px; text-align: center; color: white; background-color: #202225;">Mr_Denno</td></tr>
+    <tr><td rowspan="4" width="30" style="border-radius: 50px;"><center><img src="gradi/Generale.PNG"></td></center> <td rowspan="4" height="50"><img title="Membro da Maggio 2021" src="discord_tag/denno_tag.PNG" style="border-radius: 10px; width: 130px;"></td> 
+        <td width="30" style="border-radius: 50px;"><img src="Medaglie/un1.png" id="medaglie"></img></td></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr><td colspan="3" align="center" style="color: white; border-radius: 50px; background-color: #202225;">GENERALE</td></tr>
+</table></center>
+
+
+
+
+<hr width="66%" style="margin-top: 40px;">
+
+<h2 align="center" style="color: white; margin-top: 120px;">Colonnello</h2>
+
+<hr width="66%" style="margin-top: 40px;">
+
+<h2 align="center" style="color: white; margin-top: 120px;">Capitano</h2>
+
+<hr width="66%" style="margin-top: 40px;">
+
+<h2 align="center" style="color: white; margin-top: 120px;">Soldato Scelto</h2>
+
+<hr width="66%" style="margin-top: 40px;">
+
+<h2 align="center" style="color: white; margin-top: 120px;">Soldato</h2>
+
+<hr width="66%" style="margin-top: 40px;">
+
+<h2 align="center" style="color: white; margin-top: 120px;">Recluta</h2>
+
+</table></center>
+
+
+
+
+
+
+</div>  
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<style>
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+</style>
+
+</body>
+</html>

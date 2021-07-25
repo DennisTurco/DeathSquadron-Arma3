@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <title> Death Squadron </title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <link rel="shortcut icon" href="LOGO12.png">
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div> 
+<div style="display:none;" id="myDiv" class="animate-bottom">
+
+<div class="sticky">
+<table cellspacing="0" style="margin: 25px;">
+	<tr><td rowspan="2" id="cellalogo"></td> <td id="cellatitolo"><a href="index.html"><h1 id="titolo">Death Squadron</h1></a></td></tr>	<tr><td id="sottotitolo" colspan="2" height="35" valign="top">Migliore clan italiano di Arma 3!</td></tr>
+    <img src="immagini/triangolo.png" id="triangolo"></img>
+    <a href="index.html"><img src="immagini/LOGO12.png" id="logo"></img></a>
+</table>
+
+<div id="drop-menu">
+    <ul id="menu">
+        <li><a href="index.html" title="Home"><img src="immagini/6952422px.png" height="15"></img></a></li>
+        <li><a href="organico.html">Organico</a></li>
+        <li><a>Onorificenze</a>
+            <ul>  
+                <li><a href="gradi.html">Gradi</a></li>
+                <li><a href="medaglie.html">Medaglie</a></li>
+            </ul>      
+        <li><a href="eventi.html" title="eventi">Eventi</a>
+        <li><a>Galleria</a>
+            <ul>
+                <li><a href="foto.html">Foto</a></li>
+                <li><a href="video.html">Video</a></li>
+            </ul>
+</div>
+</div>
+
+
+
+</div>  
+<script>
+var myVar;
+
+function myFunction() {
+  myVar = setTimeout(showPage, 1000);
+}
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+<style>
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+    }
+</style>
+
+
+</body>
+</html>
